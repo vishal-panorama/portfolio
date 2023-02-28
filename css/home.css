@@ -1,0 +1,225 @@
+.sidebar {
+    background-color: red;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    position: fixed;
+    font-size: 20px;
+    min-height: 100vh;
+
+}
+
+.menu {
+    height: 100%;
+    display: flex;
+}
+
+.Details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    line-height: 50px;
+
+}
+
+.dot {
+    cursor: pointer;
+    height: 170px;
+    width: 170px;
+    margin: 0 2px;
+    border-radius: 50%;
+    background-color: red;
+
+}
+
+.image {
+    cursor: pointer;
+    height: 150px;
+    width: 150px;
+    margin: 10 10px;
+    border-radius: 50%;
+}
+
+.text {
+    line-height: 20px;
+    text-align: center;
+}
+
+.text h1 {
+    color: red;
+}
+
+.education_content {
+    display: flex;
+    line-height: 10px;
+    justify-content: space-between;
+    text-align: right;
+    width: 300px;
+
+}
+
+.education_container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+
+    flex-direction: column;
+}
+
+.education_course {
+    text-align: left;
+    ;
+}
+
+.education_head {
+    text-align: center;
+    line-height: 15px;
+}
+
+.Project_head {
+    text-align: center;
+    line-height: 15px;
+    margin-top: 30px;
+}
+
+.Project_Name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Details_head {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    line-height: 50px;
+}
+
+.Details_data {
+    width: 100%;
+}
+
+.button {
+    position: fixed;
+    top: 0px;
+    left: 50%;
+    border-radius: 50%;
+
+
+}
+
+.button button {
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: red;
+    border-color: red;
+
+}
+.footer_detail
+{
+    left:50%;
+    background-color: cadetblue;
+    height: 40%;
+    text-align: center;
+    margin-top: 50%;
+}
+
+.sidepanel {
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: red;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+
+}
+
+.sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidepanel i {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidepanel a:hover {
+    color: #f1f1f1;
+}
+
+.sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+}
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    display: none;
+}
+
+.openbtn:hover {
+    background-color: #444;
+}
+
+@media screen and (min-width:0px) and (max-width: 767px) {
+
+    .sidebar {
+
+        display: none;
+
+    }
+
+    .openbtn {
+        display: inline-block;
+        position: fixed;
+    }
+
+
+}
+
+@media screen and (min-width:768px) and (max-width: 1024px) {
+
+    .sidebar {
+
+        display: none;
+
+    }
+
+    .openbtn {
+        display: inline-block;
+        position: fixed;
+    }
+
+
+}
